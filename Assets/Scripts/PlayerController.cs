@@ -48,7 +48,7 @@ public class PlayerController : MonoBehaviour {
         // Read input
         float horiz = Input.GetAxis("Horizontal");
         float vert = Input.GetAxis("Vertical");
-        Debug.Log("x: " + horiz + ", y: " + vert);
+        //Debug.Log("x: " + horiz + ", y: " + vert);
 
         Vector2 movement = new Vector2(horiz, vert);
 

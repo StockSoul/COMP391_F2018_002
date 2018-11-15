@@ -93,6 +93,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ExplosionAsteroid: {fileID: 1662138505680412, guid: d844dbf83fa09ce41a0c2a5333144f84,
     type: 2}
+  ExplosionPlayer: {fileID: 1542663026303570, guid: 10662382ab86aca409f719194d06e323,
+    type: 2}
+  scoreValue: 10
 --- !u!114 &114677203251058576
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -116,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 574b3234d3fa1ef44af60daa05359ebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: -5
+  speed: -10
 --- !u!212 &212996091259697916
 SpriteRenderer:
   m_ObjectHideFlags: 1
